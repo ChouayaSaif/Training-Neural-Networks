@@ -26,7 +26,8 @@ class Perceptron:
 
 
 neuron = Perceptron(2)
-neuron.set_weights([10,10,-15])
+#neuron.set_weights([10,10,-15]) # AND Gate
+neuron.set_weights([15,15,-10]) #OR
 
 print("Gate:")
 print ("0 0 = {0:.10f}".format(neuron.run([0,0])))
