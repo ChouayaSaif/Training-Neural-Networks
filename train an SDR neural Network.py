@@ -170,6 +170,7 @@ for i in range(epochs):
     mse += mlp3.bp([1, 1, 1, 1, 0, 1, 1], [1, 1, 1, 1, 0, 1, 1])  # 9 pattern
     mse = mse / 10.0
 
+
 print("Done!\n")
 pattern = [1.2]
 while (pattern[0] >= 0.0):
